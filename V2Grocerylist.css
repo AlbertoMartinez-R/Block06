@@ -45,7 +45,7 @@ h3 {
     margin: 0%;
     padding: 0%;
 }
-/*image & list*/
+/*image & list parent*/
 .block1 img {
   height: auto;
   width: 25%;
@@ -57,7 +57,20 @@ ul {
   padding: 15%;
 }
 
+ol {
+  height: 100%;
+  margin: 3%;
+  padding: 15%;
+}
+
 li {
   margin: 0;
   padding: 1%;
+}
+/*Lists*/
+.OList2 {
+  list-style-type: lower-latin;
+}
+.UList2 {
+  list-style: square;
 }
